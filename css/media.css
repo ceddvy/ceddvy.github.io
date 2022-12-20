@@ -166,7 +166,7 @@
     }
     /* -------------------------------------- */
     section{
-        height: 80vh;
+        height:auto;
     }
 
     .skill-set{
@@ -235,6 +235,8 @@
     .text-center button{
         width: 80%;
     }
+    
+
     .contact{
         height: 90vh;
     }
