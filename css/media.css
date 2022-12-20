@@ -1,0 +1,260 @@
+@media (min-width: 1200px){
+   .container{
+    max-width: 1140px;
+   }
+   
+    
+}
+
+@media (min-width: 992px){
+    .nav-menu a{
+        width: 56px;
+    }
+
+    .burger-toggle{
+        display: none !important;    
+    }
+
+    .intro-section{
+        padding-left: 150px;
+    }
+    /* -------------------------------------- */
+    section{
+        padding-left: 130px;
+    }
+
+    .skill-set {
+        
+        flex: 0 0 auto;
+        width: 33.333333%;
+        
+    } 
+    /* -------------------------------------- */
+    .contact-container .socials{
+        flex: 0 0 auto;
+        width: 32.333333%;
+    }
+    
+    .col-md-6{
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+
+    .contact-container .mt-lg-0{
+        margin-top: 0!important;
+    }
+
+    .col-lg-8{
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+
+    .container{
+        max-width: 960px;
+    }
+
+
+   
+}
+
+@media (min-width: 768px){
+    .col-md-6{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+@media(max-width:992px) {
+    header{
+        width: 300px;
+        background: #fff;
+        border-right: 1px solid #e6e9ec;
+        left: -300px;   
+        
+    }
+
+    .burger-toggle{
+        display: block;
+        border-radius: 50px;
+        padding: 5px;
+        transition: 0.3s;
+           
+    }
+
+    .burger-toggle.active .bar:nth-child(2){
+        opacity: 0;
+        
+
+    }
+    .burger-toggle.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+        background-color: white;
+    }
+    .burger-toggle.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+        background-color: white;
+    }
+
+    .burger-toggle:focus, .burger-toggle:active, .burger-toggle:hover, .burger-toggle.active{
+        color: white;
+        background: linear-gradient(to right bottom, #9e66c6, #6027e1);
+        
+    }
+
+    .nav-menu a{
+        width: 100%;
+        padding: 10px 80px;
+    }
+
+    .nav-menu a:focus, .nav-menu a:active, .nav-menu a:hover{
+        width: 100%;    
+        overflow: hidden;  
+    }
+
+
+    header.active{
+        left: 0;
+        
+    }
+
+    /* ----Section---- */
+    .intro-section{
+        height: 110vh;
+    }
+
+    .intro-center{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        gap: 0%;
+    }
+
+    .btn-resume{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img{
+        width: 270px;
+        height: 430px;
+        border-radius: 165px;
+    }
+
+    .text-container h1{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .text-container h2{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .text-container p{
+        text-align: center;
+        font-size: 14px;
+        width: 250px;
+    }
+
+    .socials .soc-menu{
+
+        font-size: 18px;
+        
+    }
+    /* -------------------------------------- */
+    section{
+        height: 150%;
+    }
+
+    .skill-set{
+
+        justify-content: center;
+        width: 50%;
+        
+    }
+
+    .container-project .project-info{
+        height: 100%;
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+        /* background: linear-gradient(to right bottom, #9e66c6, #6027e1);
+        display: flex;
+        flex-direction: column;
+    /* padding: 50px 110px 50px 110px; */
+        /* color: white;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 15px;    */ 
+    }
+
+    .slides-container{
+        max-width: 100%;
+    }
+
+/* -------------------------------------- */
+    .container-project .project-shot{
+        display: none !important;
+    }
+
+    .prev:hover, .next:hover{
+        background: white;
+        color: black;
+        align-items: center;
+    }
+
+    .prev, .next{
+        color: white;
+        
+    }
+/* ------------------------------------------ */
+
+    .contact-container{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+   
+    .contact-container .name-email{
+        display: block;
+        flex-direction: column;
+        
+    }
+
+    .contact-container .socials{
+        display: none;
+    }
+
+    .contact .php-email-form .form-group{
+        margin-right: 0px;
+        padding-bottom: 20px;
+    }
+    
+    .text-center button{
+        width: 80%;
+    }
+    .contact{
+        height: 90vh;
+    }
+
+}
+
+@media(max-width:600px) {
+    .skill-set {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        
+    }
+
+    .contact-container .name-email{
+        display: block;
+        flex-direction: column;
+        
+    }
+
+
+   
+}
