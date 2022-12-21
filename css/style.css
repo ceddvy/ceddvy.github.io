@@ -177,6 +177,7 @@ nav .nav-menu>ul>li{
     gap:50%;
     font-size: 32px;
     padding-top: 10px;
+    padding-left: 50px;
 }
 
 .soc-menu .soc-item a{
